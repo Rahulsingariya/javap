@@ -167,7 +167,7 @@ class SerenitySuitesHotelManagementSystem {
     }
 
     public void bookRoom() {
-        // Get Valid Customer Details
+        
         String name = getValidName();
         String contact = getValidContact();
         String address = getValidAddress();
