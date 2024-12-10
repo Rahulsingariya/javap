@@ -190,7 +190,7 @@ class SerenitySuitesHotelManagementSystem {
             System.out.print("Enter customer name: ");
             name = scanner.nextLine().trim();
 
-            // Regex: Ensure the name is at least two words, each word contains only alphabetic characters and starts with a capital letter
+            
             if (name.matches("^[A-Z][a-z]+( [A-Z][a-z]+)+$")) {
                 break;
             } else {
