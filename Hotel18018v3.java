@@ -330,13 +330,13 @@ public class Hotel18018v3 {
                     hms.viewAvailableRooms();
                     break;
                 case 3:
-                    // Implement cancelBooking() here
+                    
                     break;
                 case 4:
-                    // Implement searchBookingByCustomer() here
+                    
                     break;
                 case 5:
-                    // List all rooms
+                    
                     break;
                 case 6:
                     System.out.println("Thank you for using Serenity Suites!");
