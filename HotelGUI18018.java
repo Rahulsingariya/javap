@@ -74,7 +74,7 @@ class HotelGUI18018 extends JFrame {
         btnBookRoom.addActionListener(e -> bookRoom(displayArea));
         btnViewAvailableRooms.addActionListener(e -> viewAvailableRooms(displayArea));
         btnListAllRooms.addActionListener(e -> listAllRooms(displayArea));
-        btnExit.addActionListener(e -> System.exit(0)); // Exit the application
+        btnExit.addActionListener(e -> System.exit(0)); 
 
         setVisible(true);
     }
@@ -138,7 +138,7 @@ class HotelGUI18018 extends JFrame {
             String email = txtEmail.getText().trim();
             String selectedRoom = (String) roomSelection.getSelectedItem();
 
-            // Perform validations
+            
             if (!ValidationUtils.validateName(name)) {
                 JOptionPane.showMessageDialog(bookingDialog, "Invalid name. Enter in 'Firstname Lastname' format.", "Validation Error", JOptionPane.ERROR_MESSAGE);
                 return;
