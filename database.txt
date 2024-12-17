@@ -1,0 +1,11 @@
+Link for database:- 
+
+https://www.phpmyadminonline.com/
+
+log in details:-
+
+Host: sql12.freesqldatabase.com
+Database name: sql12751554
+Database user: sql12751554
+Database password: TPnhQNVzBa
+Port number: 3306
